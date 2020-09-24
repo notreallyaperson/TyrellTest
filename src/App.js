@@ -171,8 +171,8 @@ const App = props => {
         <Table>
           <thead>
             <tr>
-              <th>Person</th>
-              <th>Cards</th>
+              <th style={{width: '50%'}}>Person</th>
+              <th style={{width: '50%'}}>Cards</th>
             </tr>
           </thead>
           <tbody>
