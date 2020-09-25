@@ -51,7 +51,7 @@ const App = props => {
   const checkValidInput = e => {
     setErrorMessage('')
     const inputNumber = Number(e.target.value)
-    if (inputNumber < 0 || !Number.isInteger(inputNumber)) {
+    if (inputNumber < 1 || !Number.isInteger(inputNumber)) {
       return setErrorMessage('Requires A whole Number Greater than 0...')
     }
     setN(e.target.value)
